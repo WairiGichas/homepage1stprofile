@@ -1,0 +1,109 @@
+<!--
+   1. content in html is put inside tags. When you open a tag you close it
+   sample;
+   <tagname> some content goes here</>
+    
+    2. All HTML/CSS/JS are usually enclosed in the html tag
+    sample;
+    <html. all my content  comes here </html>
+
+    3. The head tag is the first tag in html tag. 
+    There we need to add things in the browser e.g CSS and title of the page
+    sample;
+   
+
+    4. The body tag is where we add content for the site , basically everythingthe user sees.
+    Paragraphs, headings, images, links, lists, forms, tables.
+    sample;
+    
+
+    5.Indicaion usage of HTML5 use the below code at the beginning of your paragraph
+    <!DOCTYPE html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+        <style>
+           p {
+                font-family:50px;  
+                font-weight:600;
+                font-style: italic;
+                background-color: yellowgreen; 
+            }
+        b   {
+            margin-left:100px ;
+            background-color: rgb(114, 196, 234)
+        }
+
+        .section-one{
+            font: size 200px;
+            font-style:oblique;
+            background-color:rgb(221, 217, 234);
+            color:darkorchid;
+                }
+        </style>
+    </head>
+
+    <body>
+        
+<img src ="images/profile.jpg" width = "232" height = "212" Alt ="My Profile Picture" style="center-align"; >
+
+<h2>Wairimu Gichaiya</h2>
+<h4>wairig@gmail.com </h4>
+<a href ="https://www.twitter.com/wairig/" target="_blank"> twitter </a>
+<a href ="https://www.facebook.com/wairi.gichaiya" target="_blank"> facebook </a>
+
+
+<p>I am an upcoming software developer, currently learning Web development.</p>
+<p>This an area i have decided to venture on.</p>
+
+<div  class= "section-one">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Nobis at voluptatum amet quos obcaecati. Assumenda ipsam 
+        voluptate ab, molestias a praesentium in animi earum 
+        ut quia amet omnis tempore id!</p>
+</div>
+
+<p> adding inline styling using css</p>
+    
+</p>
+<h2>MY SKILLS</h2>
+<ul>
+    <li>HTML</li>
+    <Li>CSS</Li>
+    <li>Javascript</li>
+    <li>Python Programming</li>
+    <li>SQL Databases</li>
+</ul>
+
+   
+<h2>CONTACT ME </h2>
+<form>
+<fieldset>
+    <legend > Contact Form-Sample1</h2></legend>
+    
+    <label>First Name: </label>
+    <input type="text"><br>
+    <p>
+    <label>Last Name:</label>
+    <input type="text"><br>
+    <p>
+    <label> Company Name:</label>
+    <input type="text"><br>
+    <p>
+    <label>Phone:</label>
+    <input type="text"><br>
+    <p>
+    <label>Email:</label>
+    <input type="text"><br>
+    <p>
+    <textarea name="textarea" rows="5" cols="80" maxlength="200">Additional information...</textarea>
+    <p>
+    <input type="submit"  value="Submit"/>
+</p>
+</fieldset>
+</form>
+</body>
+</html>

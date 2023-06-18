@@ -1,0 +1,48 @@
+.page {
+    border-style:groove;
+}
+
+p {
+    font-family:50px;  
+    font-weight:600;
+    font-style: normal;
+    margin: 20px;
+
+    
+}
+
+body{
+padding: 25px 55px 55px 55px;
+background-color: antiquewhite;
+}
+
+.img-container{
+margin:auto;
+width: 30%;
+}
+
+.form-section{
+    margin:auto;
+    width:90%;   
+}
+
+.form-section label{ /*this is to format the labels in from-section class or parent*/
+    font-style:italic;
+}
+
+.links-container  
+{
+    align-items: center;
+}
+
+.imgcap-container{
+    margin:auto;
+    width: 90px; 
+}
+
+.section-one{
+font: size 200px;
+font-style:oblique;
+background-color:rgb(221, 217, 234);
+color:darkorchid;
+    }
